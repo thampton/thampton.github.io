@@ -9,7 +9,9 @@ h1{font-size:2.2rem;margin:0;letter-spacing:-.02em}
 .open{margin:.3rem 0 0;color:var(--muted)}
 a{color:var(--accent)}
 a:focus-visible{outline:3px solid #b45309;outline-offset:3px;border-radius:2px}
-header{padding-bottom:24px;border-bottom:1px solid var(--line)}
+header{display:flex;gap:28px;align-items:center;padding-bottom:24px;border-bottom:1px solid var(--line)}
+header>div{flex:1;min-width:0}
+.headshot{width:176px;height:auto;border-radius:10px;flex-shrink:0}
 section{margin-top:32px}
 h2{font-size:.85rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 12px}
 article{margin-bottom:24px}
@@ -19,5 +21,5 @@ h3{font-size:1.1rem;margin:0}
 .sub{font-weight:600;margin:.6rem 0 .2rem}
 p{margin:.3rem 0}
 ul{margin:.3rem 0 0;padding-left:1.2rem}li{margin:.2rem 0}
-@media(max-width:480px){main{padding:32px 20px 48px}h1{font-size:2rem}.links span{margin:0 .2rem}}
+@media(max-width:480px){main{padding:32px 20px 48px}h1{font-size:2rem}.links span{margin:0 .2rem}header{flex-direction:column;align-items:flex-start;gap:16px}.headshot{width:136px}}
 @media print{main{padding:0}a{color:inherit}}
