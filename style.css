@@ -8,6 +8,7 @@ h1{font-size:2.2rem;margin:0;letter-spacing:-.02em}
 .links{margin:0}.links span{color:var(--muted);margin:0 .4rem}
 .open{margin:.3rem 0 0;color:var(--muted)}
 a{color:var(--accent)}
+a:focus-visible{outline:3px solid #b45309;outline-offset:3px;border-radius:2px}
 header{padding-bottom:24px;border-bottom:1px solid var(--line)}
 section{margin-top:32px}
 h2{font-size:.85rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 12px}
